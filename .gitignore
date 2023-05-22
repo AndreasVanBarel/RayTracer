@@ -1,4 +1,7 @@
-ompiled class file
+# output pngs 
+/*.png
+
+# compiled class file
 *.class
 
 # Log file
