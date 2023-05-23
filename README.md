@@ -20,10 +20,55 @@ Please consult the above mentioned report for a detailed description of features
 - Several light source types: directional light sources, point light sources, and area light sources
 - Anti-aliasing (AA)
 - Depth of field (DOF)
+- Efficient implementation. Each render takes at most a few seconds.
 
 ## Example renders
 
-For more examples, see the above mentioned report.
+For more examples, see the above mentioned report, or better yet, clone the repo and make your own!
+
+#### Glossy sphere with area lights
+<p align="center">
+  <img src="https://github.com/AndreasVanBarel/RayTracer/blob/main/renders/glossy_sphere.png" width="500" title="Glossy sphere">
+</p>
+<!---![Glossy sphere](https://github.com/AndreasVanBarel/RayTracer/blob/main/renders/glossy_sphere.png?raw=true)-->
+
+#### Refractive sphere
+<p align="center">
+  <img src="https://github.com/AndreasVanBarel/RayTracer/blob/main/renders/refractive_sphere.png" width="500" title="Refractive sphere">
+</p>
+<!---![Refractive sphere](https://github.com/AndreasVanBarel/RayTracer/blob/main/renders/refractive_sphere.png?raw=true)-->
+
+#### Depth of field 
+<p align="center">
+  <img src="https://github.com/AndreasVanBarel/RayTracer/blob/main/renders/DOF.png" width="500" title="Depth of field">
+</p>
+<!---![Depth of field](https://github.com/AndreasVanBarel/RayTracer/blob/main/renders/DOF.png?raw=true)-->
+
+#### Area light with refractive Stanford bunny
+<p align="center">
+  <img src="https://github.com/AndreasVanBarel/RayTracer/blob/main/renders/area_light.png" width="500" title="Stanford bunny">
+</p>
+<!---![Stanford bunny](https://github.com/AndreasVanBarel/RayTracer/blob/main/renders/area_light.png?raw=true)-->
+
+#### Bounding box hierarchy false color image. 
+The whiter, the more bounding boxes were traversed in the ray tracing of that pixel.
+<p align="center">
+  <img src="https://github.com/AndreasVanBarel/RayTracer/blob/main/renders/BBH.png" width="500" title="Bounding box false color">
+</p>
+<!---![Bounding box hierarchy](https://github.com/AndreasVanBarel/RayTracer/blob/main/renders/BBH.png?raw=true)-->
+
+#### An emergent Sierpinski-like fractal 
+Obtained using four spheres aranged as a tetraeder, i.e., all touching, with each having a non-physical material that amplifies the ray on each bounce instead of diminishing it. The back sphere is black, the other three have the three primary colors.
+<p align="center">
+  <img src="https://github.com/AndreasVanBarel/RayTracer/blob/main/renders/sierpinski.png" width="500" title="Emergent Sierpinski-like fractal">
+</p>
+<!---![Sierpinski](https://github.com/AndreasVanBarel/RayTracer/blob/main/renders/sierpinski.png?raw=true)-->
+
+Giving the spheres a more physical material can help to understand the fractal:
+<p align="center">
+  <img src="https://github.com/AndreasVanBarel/RayTracer/blob/main/renders/sierpinski_explanation.png" width="500" title="Sierpinski explanation">
+</p>
+<!---![Sierpinski explanation](https://github.com/AndreasVanBarel/RayTracer/blob/main/renders/sierpinski_explanation.png?raw=true)-->
 
 
 
